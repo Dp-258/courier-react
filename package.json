@@ -1,8 +1,8 @@
 {
-  "homepage": "https://Dp-258.github.io/courier-react",
+  "homepage": "http://Dp-258.github.io/courier-react",
   "name": "courier",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

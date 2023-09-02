@@ -11,10 +11,10 @@ import User from './components/pages/User';
 function App() {
   return (
     <>
-    <Router>
+    <Router basename='/courier-react'>
       <Navbar></Navbar>
       <Routes>  
-        <Route path="/" exact element={<Home />} />
+        <Route path="/courier-react" exact element={<Home />} />
           <Route path="/services"  element={<Services />}  />
           <Route path="/user"  element={<User/>}  />
           <Route path="/presentation"  element={<Presentation/>}  />
