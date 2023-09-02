@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Elemento Select en una Caja con Etiqueta Encima</title>
+  <style>
+    .select-container {
+      position: relative;
+      margin: 20px;
+      display: inline-block;
+    }
+
+    .select-label {
+      position: absolute;
+      top: -20px; /* Ajusta según sea necesario para el espacio deseado */
+      left: 8px; /* Ajusta según sea necesario */
+      background-color: white;
+      padding: 0 8px;
+      font-size: 14px; /* Ajusta según sea necesario */
+      color: #333; /* Ajusta el color del texto */
+    }
+
+    .form-select {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="select-container">
+    <span class="select-label">Tipo de identificación</span>
+    <select class="form-select">
+      <option value="cedula">Cédula</option>
+      <option value="pasaporte">Pasaporte</option>
+      <option value="otro">Otro</option>
+    </select>
+  </div>
+</body>
+</html>
