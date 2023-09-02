@@ -1,0 +1,24 @@
+.cards--container h2 {
+    text-align: initial;
+  }
+  
+  .black-bg hr {
+    background-color: #2f2f2f;
+    border-color: #D03232;
+  }
+  .red-title{
+    color: #D03232;
+    font-size: 28px;
+  }
+  .white-text{
+    color: #b7b7b7;
+    font-size: 16px;
+  }
+  .cards--text{
+    color: #8d8b8b;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: initial;
+    font-family: 'inherit';
+  }
+  

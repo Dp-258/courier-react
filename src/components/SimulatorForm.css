@@ -1,0 +1,209 @@
+.container-simulator{
+    display: flex;
+    justify-content: space-between;
+    background-image: url("https://images.pexels.com/photos/6169668/pexels-photo-6169668.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    height: auto;
+    background-size: cover;
+    padding-right: 5%;
+    min-height: 100vh;
+}
+.simulator-desc{
+  margin-left: 3.5rem;
+  margin-right: 1.5rem;
+  white-space: 'pre-line';
+  background-color: rgba(255, 255, 255, 0.95);
+  max-width: 500px;
+  border-radius: 8px;
+}
+.data-simulator {
+    margin-top: 4%;
+    text-align: center;
+    width: 50%;
+  }
+  .fixed-header {
+    padding: 10px;
+    text-align: left;
+    margin-left: 2.8rem;
+    margin-top: 2.3rem;
+  }
+  
+  .fixed-header h1 {
+    text-align: left;
+    margin: 0;
+    font-size: 30px;
+  }
+.fixed-header-down{
+    color: white;
+}
+.package-header{
+    color: white;
+}
+.form-data > input{
+    width: 50%;
+}
+.form-data > label{
+    width: 50%;
+    text-align: left;
+}
+.secondForm--desc{
+  text-align: left;
+}
+.btn-next-simulator{
+    background-color:#e4bd37;
+    color:white;
+    width:40%;
+    border-radius:50px;
+    border: 0;
+    height: 45px;
+    margin-left: 2rem;
+}
+
+.btn-next-simulator:hover{
+    background-color:white;
+    color:black;
+    border: 1px solid black;
+    transition: all 0.3s ease-out;
+}
+.btn-next-simulator:hover .bounce-right {
+    animation: bounceRight 1s infinite; 
+  }
+.btn-return-simulator{
+    background-color:#e4bd37;
+    color:white;
+    width:40%;
+    border-radius:50px;
+    border: 0;
+    height: 45px;
+    margin-left: 2rem;
+}
+.btn-return-simulator:hover{
+    background-color:white;
+    color:black;
+    border: 1px solid black;
+    transition: all 0.3s ease-out;
+}
+.btn-return-simulator:hover .bounce-left {
+    animation: bounceLeft 1s infinite; 
+  }
+.btn-calculate-simulator{
+    background-color:#e47c37;
+    color:white;
+    width:40%;
+    border-radius:10px;
+    border: 0;
+    height: 45px;
+    margin-left: 2rem;
+}
+.is--invalid{
+  border: solid 1px red;
+
+}
+
+@keyframes bounceRight {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateX(0);
+    }
+    40% {
+      transform: translateX(15px); 
+    }
+    60% {
+      transform: translateX(10px); 
+    }
+  }
+
+  @keyframes bounceLeft {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateX(0);
+    }
+    40% {
+      transform: translateX(-15px); 
+    }
+    60% {
+      transform: translateX(-10px); 
+    }
+  }
+
+@media screen and (max-width:980px){
+    .container-simulator{
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-top: 2%;
+        width: auto;
+        display: block;
+    }
+    .data-simulator{
+        width: inherit;
+        margin-top: 1.6rem;
+    }
+    .package-data{
+        min-width: 262px;
+
+    }
+    .secondForm--desc{
+      text-align: center;
+    }
+    .fixed-header, .simulator-desc {
+      margin-left: 0;
+      padding-left: 0;
+    }
+    .simulator-desc{
+      margin-right: 0;
+      display: none;
+    }
+    .form-data > label{
+      width: 100%;
+      text-align: center;
+  }
+    .form-data > input{
+      width: 100%;
+      text-align: center;
+
+  }
+  .form-data > p{
+    text-align: center;
+  }
+  .btn-container{
+    display: flex;
+    justify-content: space-between;
+  }
+  .btn-return-simulator{
+  width: 35%;
+    min-width:80px;
+    height: 45px;
+    margin-left: 0;
+}
+.btn-next-simulator{
+  width: 35%;
+  min-width:80px;
+  height: 45px;
+
+}
+  .text-to-hide {
+    display: none; 
+  }
+
+@keyframes bounceRight {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateX(0);
+  }
+  40% {
+    transform: translateX(10px); 
+  }
+  60% {
+    transform: translateX(5px); 
+  }
+}
+
+@keyframes bounceLeft {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateX(0);
+  }
+  40% {
+    transform: translateX(-10px); 
+  }
+  60% {
+    transform: translateX(-5px); 
+  }
+}
+
+}

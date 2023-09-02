@@ -1,0 +1,109 @@
+.signin-form{
+    border-top: 4px solid #17a2b8;
+    /*border-right: 4px solid #17a2b8;
+    border-left: 4px solid #17a2b8;*/
+    border-radius: 8px;
+    /* inset | offset-x | offset-y | color */
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12)
+}
+.select-container {
+    position: relative;
+  }
+  .select-container-middle {
+    position: relative;
+    width: 50%;
+    padding-left: 3px;
+  }
+
+  .select-label {
+    position: absolute;
+    top: -10px; 
+    left: 22px; 
+    background-color: white;
+    font-size: 14px; 
+    color: gray; 
+  }
+  .select-label-right {
+    position: absolute;
+    top: 6px; 
+    left: 16px; 
+    background-color: white;
+    font-size: 14px; 
+    color: gray; 
+  }
+
+  .form-select {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 3rem;
+  }
+  .input-middle{
+    width: 47.3%;
+    border: 1px solid #ccc;
+    height: 3rem;
+    border-radius: 4px;
+    margin-top: 1rem;
+    margin-left:3px;
+  }
+  .input-date{
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 3rem;
+    border-radius: 4px;
+    margin-top: 1rem;
+    margin-left:0px;
+    padding-left: 12px;
+  }
+  .input-full{
+    width: 96%;
+    border: 1px solid #ccc;
+    height: 3rem;
+    border-radius: 4px;
+    margin-top: 1rem;
+    margin-left: 12px;
+  }
+  .input-50{
+    width: 47%;
+    border: 1px solid #ccc;
+    height: 3rem;
+    border-radius: 4px;
+    margin-top: 1rem;
+    margin-left: 12px;
+  }
+  .input-35{
+    width: 32%;
+    border: 1px solid #ccc;
+    height: 3rem;
+    border-radius: 4px;
+    margin-top: 1rem;
+    margin-left: 12px;
+  }
+  .input-15{
+    width: 12%;
+    border: 1px solid #ccc;
+    height: 3rem;
+    border-radius: 4px;
+    margin-top: 1rem;
+    margin-left: 12px;
+  }
+  .btn-signup{
+    background-color: #6f42c1;
+     color: white;
+      width:55%;
+       margin:10px; 
+  }
+
+  @media screen and (max-width: 850px) {
+    .input-middle{
+        width: 95%;
+        margin-left:11px;
+      }
+      .select-container-middle {
+        width: 100%;
+        padding-left: 12px;
+      }
+      .input-50{
+        width: 94%;
+      }
+  }

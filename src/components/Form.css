@@ -1,0 +1,10 @@
+.form--container{
+    padding-bottom: 10px;
+}
+.send--btn{
+    text-align: center;
+
+}
+.send--btn > button{
+    width: 100%;
+}

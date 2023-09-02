@@ -1,0 +1,12 @@
+.info--container{
+    width: 92%;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.info--col > p{
+    color: #888;
+    font-size: 15px;
+}
+.info--col > h3{
+    font-size: 17px;
+}

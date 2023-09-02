@@ -1,0 +1,29 @@
+.click--icon {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.tooltip--container {
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 4%;
+}
+
+.tooltip--content {
+    color: black;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.center--content{
+    justify-content: center;
+}
+@media screen and (max-width: 960px) {
+    .tooltip--content {
+        font-size: 10px;
+        margin-left: 0px;
+    }
+}

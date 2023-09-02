@@ -1,0 +1,49 @@
+.about--container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem ;
+  }
+  
+  .about--box, .main--box, .description--box {
+    flex-basis: calc(50% - 20px); /* Calculamos el ancho para 2 columnas y restamos el espacio entre ellos */
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 5px;
+  }
+
+  .main--box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 72%;
+  }
+  
+  .sub--box {
+    flex-basis: calc(50% - 10px); /* Calculamos el ancho para 2 columnas y restamos el espacio entre ellos */
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+  }
+  .description--box {
+    flex-basis: 25%; /* Establece el ancho al 30% */
+    background-color: rgb(47, 47, 47);
+  }
+  .description--box > img {
+    margin-top: 3rem;
+  }
+  .box--text li{
+    color: #8d8b8b;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: initial;
+    font-family: 'inherit';
+  }
+  h2{
+    text-align: initial;
+  }
+  
+@media (max-width: 768px) {
+  .about--box, .main--box, .sub--box {
+    flex-basis: 100%; /* Cambiamos a 100% para ocupar el ancho completo en pantallas más estrechas */
+  }
+}

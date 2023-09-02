@@ -1,0 +1,8 @@
+.box-container-form{
+    display: flex;
+}
+@media screen and (max-width: 960px) {
+    .box-container-form {
+      display: block; 
+    }
+}
