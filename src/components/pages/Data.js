@@ -75,7 +75,7 @@ export const about={
 }
 
 export const contact={
-    src:'../../../images/tech1.png',
+    src:'../../../courier-react/images/tech1.png',
     title:'Contáctanos'
 }
 
