@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/pages/Home'
 import Services from './components/pages/Services';
 import Presentation from './components/pages/Presentation';
@@ -11,10 +11,10 @@ import User from './components/pages/User';
 function App() {
   return (
     <>
-    <Router basename='/courier-react'>
+    <Router >
       <Navbar></Navbar>
       <Routes>  
-        <Route path="/courier-react" exact element={<Home />} />
+        <Route path="/" exact element={<Home />} />
           <Route path="/services"  element={<Services />}  />
           <Route path="/user"  element={<User/>}  />
           <Route path="/presentation"  element={<Presentation/>}  />
