@@ -231,7 +231,7 @@ function SimulatorForm() {
                                 <div className={btnData == 2 ? 'third-form ' : 'd-none'}>
                                     <h3>Datos de contacto</h3>
                                     <div>
-                                        <ToolTip description='Para ver los resultados de nuestro cotizador, Por favor completa los datos que te presentamos a continuación:'
+                                        <ToolTip description='Para ver los resultados de nuestro cotizador, por favor completa los datos que te presentamos a continuación:'
                                             mode='center' active='true' ></ToolTip>
                                     </div>
                                     <br></br>
@@ -277,7 +277,7 @@ function SimulatorForm() {
                                                 checked={ok}
                                                 type="checkbox"
                                                 onChange={handleCheckboxChange}
-                                            /> Al aplastar aquí acepto terminos y condiciones de la página
+                                            /> Al presionar aquí aceptas los terminos y condiciones de la página
                                         </label>
                                     </div>
                                     <br></br>

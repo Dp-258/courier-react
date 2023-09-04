@@ -9,13 +9,13 @@ function AboutUs() {
                     <div class="sub--box">
                         <DataCards
                             title="Misión"
-                            subtitle="Crear y mantener una relación comercial sólida y duradera con nuestros clientes, ofreciendo un Servicio Courier confiable, seguro, rápido, con excelentes tarifas y sustentados en un Servicio de Atención al Cliente de calidad superior."
+                            subtitle="Nuestra misión es establecer y mantener relaciones comerciales sólidas y duraderas con nuestros clientes, brindando un servicio Courier confiable, seguro y rápido, respaldado por tarifas competitivas y un servicio de atención al cliente de calidad superior"
                             bg=""></DataCards>
                     </div>
                     <div class="sub--box">
                         <DataCards
                             title="Visión"
-                            subtitle="Convertirnos en una Empresa de Servicio Courier líder en el mercado, brindando soluciones logísticas de carga Courier a nuestros clientes, abriendo nuestras operaciones en diferentes países del mundo."
+                            subtitle="Nuestra visión es transformarnos en la principal empresa de servicios Courier en Ecuador y más allá. Nos comprometemos a ofrecer soluciones logísticas de carga Courier de vanguardia a nuestros clientes, impulsando su éxito y satisfacción. A medida que crecemos, aspiramos a expandir nuestras operaciones a nivel internacional, conectando a Ecuador con el mundo y brindando un servicio de clase mundial en cada paso del camino."
                             bg=""></DataCards>
                     </div>
                     <div class="sub--box">
@@ -24,12 +24,12 @@ function AboutUs() {
                             <hr></hr>
                             <div >
                                 <ul>
-                                    <li>Confiabilidad</li>
-                                    <li>Responsabilidad</li>
-                                    <li>Seguridad</li>
-                                    <li>Rapidez</li>
-                                    <li>Vocación de Servicio al Cliente</li>
-                                    <li>Trato personalizado</li>
+                                    <li>Confiabilidad: Aseguramos que los envíos de nuestros clientes lleguen a tiempo y en perfectas condiciones.</li>
+                                    <li>Responsabilidad: Cumplimos con nuestros deberes éticos y profesionales en todo momento.</li>
+                                    <li>Seguridad: Implementamos las medidas más rigurosas para garantizar que sus paquetes lleguen de manera segura a su destino.</li>
+                                    <li>Rapidez: Entregamos sus envíos de manera rápida y eficiente.</li>
+                                    <li>Vocación de Servicio al Cliente: Estamos comprometidos a comprender y satisfacer las necesidades de nuestros clientes de manera proactiva y excepcional.</li>
+                                    <li>Colaboración: Fomentamos la colaboración interna y externa, trabajando en conjunto con nuestros empleados, socios y clientes para alcanzar el éxito compartido.</li>
                                 </ul>
                             </div>
                         </div>
